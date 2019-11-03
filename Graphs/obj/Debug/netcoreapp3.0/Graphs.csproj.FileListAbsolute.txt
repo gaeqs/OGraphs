@@ -1,0 +1,11 @@
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.exe
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.deps.json
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.runtimeconfig.json
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.runtimeconfig.dev.json
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.dll
+F:\RiderProjects\Graphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.pdb
+F:\RiderProjects\Graphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.csprojAssemblyReference.cache
+F:\RiderProjects\Graphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.AssemblyInfoInputs.cache
+F:\RiderProjects\Graphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.AssemblyInfo.cs
+F:\RiderProjects\Graphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.dll
+F:\RiderProjects\Graphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.pdb
