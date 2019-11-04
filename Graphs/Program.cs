@@ -11,14 +11,19 @@ namespace Graphs{
             var matrix = new float[length, length];
             for (var x = 0; x < length; x++) {
                 for (var y = x + 1; y < length; y++) {
-                    matrix[x, y] = (float) (random.NextDouble() < 0.8 ? random.NextDouble() * 100 : double.PositiveInfinity);
+                    matrix[x, y] = (float) (random.NextDouble() < 0.8
+                        ? random.NextDouble() * 100
+                        : double.PositiveInfinity);
                 }
             }
-            
+
             var graph = new Graph(matrix);
             Console.WriteLine(graph);
             Console.WriteLine("---------------------------");
-            Console.WriteLine(graph.GetMinimumCostGraph());
+            graph.GetMinimumCostGraph(out var cost, out var predecessors);
+            Console.WriteLine(cost);
+            Console.WriteLine("---------------------------");
+            Console.WriteLine(predecessors);
         }
     }
 }

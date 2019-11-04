@@ -54,8 +54,17 @@ namespace Graphs{
             matrix_[x, y] = matrix_[y, x] = value;
         }
 
-        public Graph GetMinimumCostGraph() {
-            var costGraph = new Graph(this);
+        public void GetMinimumCostGraph(out Graph costGraph, out Graph predecessorsGraph) {
+            costGraph = new Graph(this);
+
+           predecessorsGraph = new Graph(length_);
+            for (var i = 0; i < length_; i++) {
+                for (var j = 0; j < length_; j++) {
+                    predecessorsGraph[i, j] = i == j || float.IsPositiveInfinity(matrix_[i, j]) ? float.NaN : i;
+                }
+            }
+            
+            
 
             for (var k = 0; k < length_; k++) {
                 for (var i = 0; i < length_; i++) {
@@ -66,8 +75,6 @@ namespace Graphs{
                     }
                 }
             }
-
-            return costGraph;
         }
 
         public override string ToString() {
