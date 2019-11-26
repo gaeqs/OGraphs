@@ -71,7 +71,7 @@ namespace Graphs{
         }
 
         public void SetValue(int x, int y, float value) {
-            _matrix[x, y] = _matrix[y, x] = value;
+            _matrix[x, y] = value;
         }
 
         public void GetMinimumCostGraph(out Graph costGraph, out Graph predecessorsGraph) {

@@ -1,16 +1,15 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "F:\\RiderProjects\\Graphs\\Graphs\\Graphs.csproj",
+    "projectUniqueName": "C:\\Users\\g.rial.2018\\RiderProjects\\OGraphs\\Graphs\\Graphs.csproj",
     "projectName": "Graphs",
-    "projectPath": "F:\\RiderProjects\\Graphs\\Graphs\\Graphs.csproj",
-    "outputPath": "F:\\RiderProjects\\Graphs\\Graphs\\obj\\",
+    "projectPath": "C:\\Users\\g.rial.2018\\RiderProjects\\OGraphs\\Graphs\\Graphs.csproj",
+    "outputPath": "C:\\Users\\g.rial.2018\\RiderProjects\\OGraphs\\Graphs\\obj\\",
     "projectStyle": "PackageReference",
     "originalTargetFrameworks": [
       "netcoreapp3.0"
     ],
     "sources": {
-      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
       "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {

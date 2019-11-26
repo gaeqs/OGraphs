@@ -16,15 +16,16 @@ namespace Graphs{
             //            : double.PositiveInfinity);
             //    }
             //}
+            //graph.Write(@"D:\graph.dat");
 
-            var graph = new Graph(@"D:\graph.dat");
+            var graph = new Graph(@"C:\Users\g.rial.2018\OneDrive - Universidad Rey Juan Carlos\Universidad\Organización de Computadores\graph.dat");
             Console.WriteLine(graph);
             
-            var savedPredecessors = new Graph(@"D:\predecessors.dat");
+            var savedPredecessors = new Graph(@"C:\Users\g.rial.2018\OneDrive - Universidad Rey Juan Carlos\Universidad\Organización de Computadores\predecessors.dat");
             Console.WriteLine("---------------------------");
             Console.WriteLine(savedPredecessors);
             
-            var savedCosts = new Graph(@"D:\cost.dat");
+            var savedCosts = new Graph(@"C:\Users\g.rial.2018\OneDrive - Universidad Rey Juan Carlos\Universidad\Organización de Computadores\cost.dat");
             Console.WriteLine("---------------------------");
             Console.WriteLine(savedCosts);
             
@@ -37,8 +38,6 @@ namespace Graphs{
             Console.WriteLine(predecessors);
             Console.WriteLine("---------------------------");
             Console.WriteLine(cost);
-            
-            graph.Write(@"D:\graph.dat");
         }
     }
 }
