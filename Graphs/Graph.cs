@@ -75,8 +75,6 @@ namespace Graphs{
         }
 
         public void GetMinimumCostGraph(out Graph costGraph, out Graph predecessorsGraph) {
-            costGraph = new Graph(this);
-
             predecessorsGraph = new Graph(_length);
             for (var i = 0; i < _length; i++) {
                 for (var j = 0; j < _length; j++) {
@@ -84,13 +82,14 @@ namespace Graphs{
                 }
             }
 
-
+            costGraph = new Graph(this);
             for (var k = 0; k < _length; k++) {
                 for (var i = 0; i < _length; i++) {
                     for (var j = 0; j < _length; j++) {
                         var dt = costGraph[i, k] + costGraph[k, j];
                         if (costGraph[i, j] <= dt) continue;
                         costGraph[i, j] = dt;
+                        predecessorsGraph[i, k] = predecessorsGraph[k, j];
                     }
                 }
             }

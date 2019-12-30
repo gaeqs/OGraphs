@@ -20,3 +20,14 @@ C:\Users\g.rial.2018\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs
 C:\Users\g.rial.2018\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.AssemblyInfo.cs
 C:\Users\g.rial.2018\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.dll
 C:\Users\g.rial.2018\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.pdb
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.exe
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.deps.json
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.runtimeconfig.json
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.runtimeconfig.dev.json
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.dll
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\bin\Debug\netcoreapp3.0\Graphs.pdb
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.csprojAssemblyReference.cache
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.AssemblyInfoInputs.cache
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.AssemblyInfo.cs
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.dll
+C:\Users\Lara\RiderProjects\OGraphs\Graphs\obj\Debug\netcoreapp3.0\Graphs.pdb
